@@ -52,5 +52,24 @@ script will look for lines that contain [ANSWER].
 
 Part 1 - Description
 ------
-	+The code works as intended, calling three different functions to
-	determine its objectives
+	+The code works as intended, calling two different functions to
+	calculate the necesary requirements
+	+Input: user enters a (positive) int type as prompted by the program,
+	presses enter to submit the number, then enters their second number 
+	and presses enter again.
+	+ Output format: {
+	  You typed in 'num1' and 'num2'
+	  Avg: x.f
+	  First prime: 0
+	  Second prime: 1 
+	  Relatively Prime: 0
+	  }// End output
+
+	0 indicates false, 1 is true
+	in the above output, the first number was NOT prime,
+	the second number was
+
+	+ Please compile with "make" command in directory 'Part1'
+
+--------------
+END P1 DESCRPT

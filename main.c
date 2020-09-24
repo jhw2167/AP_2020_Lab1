@@ -11,8 +11,10 @@
 
 /*
 	Output format: {
+	You typed in 'num1' and 'num2'
 	Avg: x.f
-	Is prime: 0 1 
+	First prime: 0
+	Second prime: 1 
 	Relatively Prime: 0
 	}// End output
 
@@ -21,22 +23,13 @@
 	the second number was
 */
 
+//Our include statements
 #include <stdio.h>
-#include "part1/gcd.h"
-#include "part1/prime.h"
+#include "gcd.h"
+#include "prime.h"
 
-int main2();
 
 int main() {
-
-	while (true) {
-		main2();
-		printf("\n\n");
-	}
-
-}
-
-int main2() {
 
 	//define our two number vars, init to 0
 	int num1 = 0;
@@ -92,6 +85,4 @@ int main2() {
 	
 	//and we print
 	printf("Relatively Prime: %d\n", relPrime);
-	getchar();
-
 }
