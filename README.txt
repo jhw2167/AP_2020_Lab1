@@ -1,8 +1,8 @@
 This file should contain:
 
-  - your name
-  - your UNI
-  - lab assignment number
+  - Jack Welsh
+  - jhw2167
+  - 1
   - answers to academic honesty questions
   - description for each part
   
@@ -15,8 +15,24 @@ implemented or how you tried to fix your non-working code.
 
 Please answer the academic honesty questions.
 
+[1] YES, cheating, tutor gives a student an unfair advantage in the lab
 
+[2] YES, cheating, you may not view others code
 
+[3] YES, cheating, you may not be in possession of another students work
+
+[4a] NO, NOT cheating to explain
+[4b] YES, cheating, a student cannot explain another's code
+[4c] NO, not cheating, concepts may be discussed as long 
+as no code is exchanged
+
+[5] NO, NOT cheating, you better understand the material and will now apply
+	that knowledge in your own merits.
+
+[6] NO, NOT cheating, you better understand the material and will now apply
+	that knowledge in your own merits.
+
+[7] YES, cheating, you went out of your way to consult a previous years solution.
 --------------------------------------------------------------------------
 
 Part 0
@@ -25,12 +41,16 @@ Part 0
 Please write your answers after [ANSWER] on the same line.  Our auto-grading
 script will look for lines that contain [ANSWER].
 
-[0.1][ANSWER] 
+[0.1][ANSWER] "git init", "git push"
 
-[0.2][ANSWER] 
+[0.2][ANSWER] C
 
-[0.3][ANSWER] 
+[0.3][ANSWER] git checkout -- <file>
 
-[0.4][ANSWER] 
+[0.4][ANSWER] git reset (unstages file), git checkout -- <file> (run this after)
 
 
+Part 1 - Description
+------
+	+The code works as intended, calling three different functions to
+	determine its objectives
